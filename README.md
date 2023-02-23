@@ -39,7 +39,6 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 
 > ```math
 > IVR_{du} = \frac{y-y_{min}}{y_{max} - y_{min}} 
->
 > ```
 
 
