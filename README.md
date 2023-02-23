@@ -12,16 +12,6 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
   - [Indicador de visitas realizadas](#indicador1) 
   - [Indicador de visitas realizadas a diferentes usuários](#indicador2)
 
-
-``` 
-{
-  "firstName": "John",
-  "lastName": "Smith", 
-  "age": 25
-} 
-```
-
-
 ## Indicadores <a id=#Indicadores></a>
 
 ### 1. Indicador de Visitas Realizadas
@@ -32,8 +22,8 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 ```
 **em que:**
 - **x** é a **quantidade de visitas** realizadas em determinado **intervalo de tempo**;
-- **x_max** é o ==maior valor== registrado de visitas realizadas em determinado intervalo de tempo;
-- **x_min** é o ==menor valor== registrado de **visitas realizadas** em **determinado intervalo de tempo**;
+- **x_max** é o `maior valor` registrado de visitas realizadas em determinado intervalo de tempo;
+- **x_min** é o `menor valor` registrado de **visitas realizadas** em **determinado intervalo de tempo**;
 
 ### 2. Indicador de visitas realizadas a diferentes usuários {#indicador2}
 
@@ -41,14 +31,9 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 > IVR_{du} = \frac{y-y_{min}}{y_{max} - y_{min}} 
 > ```
 
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 
-> \(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
-
-$$
-a^2+b^2=c^2
-$$
-
-em que:
+`em que:`
 y é a quantidade de visitas realizadas em determinado intervalo de tempo;
 y_max é o maior valor registrado de visitas realizadas em determinado intervalo de tempo;
 y_min é o menor valor registrado de visitas realizadas em determinado intervalo de tempo;
