@@ -35,10 +35,9 @@ em que:
 
 ### 2. Indicador de visitas realizadas a diferentes usuários {#indicador2}
 
- 
-```math
-## IVR_{du} = \frac{y-y_{min}}{y_{max} - y_{min}} 
-```
+> ```math
+> IVR_{du} = \frac{y-y_{min}}{y_{max} - y_{min}} 
+> ```
 
 
 > \(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
