@@ -26,8 +26,10 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 
 ### 1. Indicador de Visitas Realizadas {#indicador1}
 
-> IVR=(x-x_min)/(x_max-x_min ) 
-
+##### $$ fórmula $$
+```math
+ IVR = \frac{x-x_{min}}{x_{max}-x_{min}} 
+```
 em que:
 **x** é a **quantidade de visitas** realizadas em determinado **intervalo de tempo**;
 **x_max** é o ==maior valor== registrado de visitas realizadas em determinado intervalo de tempo;
