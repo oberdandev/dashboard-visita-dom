@@ -10,7 +10,7 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 - [Metodologia](#metodologia)
 - [Indicadores](#indicadores)
   - [Indicador de visitas realizadas](#indicador1) 
-  - 
+  - [Indicador de visitas realizadas a diferentes usuários](#indicador2)
 
 
 ``` 
@@ -22,7 +22,7 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 ```
 
 
-## Indicadores {#indicadores}
+## Indicadores <a id=#indicadores></a>
 
 ### 1. Indicador de Visitas Realizadas {#indicador1}
 
@@ -33,11 +33,11 @@ em que:
 **x_max** é o ==maior valor== registrado de visitas realizadas em determinado intervalo de tempo;
 **x_min** é o menor valor registrado de **visitas realizadas** em **determinado intervalo de tempo**;
 
-### 2. Indicador de visitas realizadas a diferentes usuários
+### 2. Indicador de visitas realizadas a diferentes usuários {#indicador2}
 
-> $$ IVRdu= {-b} $$
+> ## $$ IVR_{du} = \frac{y-y_{min}}{y_{max} - y_{min}}$$ 
 
-![\large \(IVRdu=\)，_du=(y-y_min)/(y_max-y_min )
+
 
 > \(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
