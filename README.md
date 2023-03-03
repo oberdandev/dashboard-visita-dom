@@ -34,6 +34,6 @@ Abordagem da construção do dashboard de Visita Domiciliar dos ACS's realizado 
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 
 `em que:`
-y é a quantidade de visitas realizadas em determinado intervalo de tempo;
-y_max é o maior valor registrado de visitas realizadas em determinado intervalo de tempo;
-y_min é o menor valor registrado de visitas realizadas em determinado intervalo de tempo;
+- y é a quantidade de visitas realizadas em determinado intervalo de tempo; 
+- y_max é o maior valor registrado de visitas realizadas em determinado intervalo de tempo;
+- y_min é o menor valor registrado de visitas realizadas em determinado intervalo de tempo;
